@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1614351421923,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.2af457bc445a9d15b425.js",
+        "/manifest.webmanifest",
+        "/polyfills.1b391f26029e71638c65.js",
+        "/runtime.7b63b9fd40098a2e8207.js",
+        "/styles.99049f968f9795997809.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/debug.log",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/reddit-yt-logo-circle.png",
+        "/assets/img/reddit-yt-logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/debug.log": "84a3b3ebb23e0e1d7fd59c3cca224767a3cf900f",
+    "/assets/icons/icon-128x128.png": "acb48320743df2c42ca3999946ae17e0e976a2ce",
+    "/assets/icons/icon-144x144.png": "4adee81dcde434b5e22b6cdb8b7672e9699897dc",
+    "/assets/icons/icon-152x152.png": "c5e81e421b3922fde9e294d50b85acd39eadbded",
+    "/assets/icons/icon-192x192.png": "d12e356f8ecd28276e867f86e25480ccd1a5a307",
+    "/assets/icons/icon-384x384.png": "cfd461c042fa9305974074d64818e152d3aed32b",
+    "/assets/icons/icon-512x512.png": "1289f019c23f1989532d3b56169f43e78b4f3f78",
+    "/assets/icons/icon-72x72.png": "07f8661a59219b4722ed799743c1f98919ee8ba3",
+    "/assets/icons/icon-96x96.png": "0fb9898bfe8921bc184de07510f802a1d7cc1d94",
+    "/assets/img/reddit-yt-logo-circle.png": "5ed51c6dfa2bd94eeec44119f843b9bb838a179a",
+    "/assets/img/reddit-yt-logo.png": "e0009f63c4f6206f49deaf0f27e97fd1f2b5262e",
+    "/favicon.ico": "d5ef52c34ce0192b025ba47d919a313511768445",
+    "/index.html": "754666a0c03da3ee9832fdc28d8ec7e015fddc02",
+    "/main.2af457bc445a9d15b425.js": "10cb6ff6ce2751a4ab9a0d8805f36e5a5207a231",
+    "/manifest.webmanifest": "10e71991219b9b7e9cc2f954dd37abc41961379c",
+    "/polyfills.1b391f26029e71638c65.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.99049f968f9795997809.css": "0bf845454dc773bbe9b722ed24b970e714123614"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
